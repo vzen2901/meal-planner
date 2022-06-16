@@ -11,7 +11,7 @@ export const REMOVE_FROM_CALENDAR = 'REMOVE_FROM_CALENDAR';
 //->action dễ di chuyển, dễ kiểm tra
 //->bao bọc action trong function -> trình tạo action
 // action này không tự sửa state, cập nhật state
-export function addRecipe({day, recipe, meal}) {
+export function addRecipe({ day, recipe, meal}) {
     return {
        type: ADD_RECIPE,
        recipe,
